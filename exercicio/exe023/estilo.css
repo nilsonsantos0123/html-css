@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: aqua;
+}
+
+h2{
+    color: rgb(51, 77,49);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: black;
+    font-weight: 100;
+    font-size: 15px;
+    color: red;
+}
+
+.novo{
+   text-align: center;
+   background-color: black;
+   font-weight: 100;
+   font-size: 15px;
+   color: red; 
+}
+
+.basico{
+    color: yellowgreen;
+    font-weight:bolder;
+}
+.intermediario{
+    color: rgb(165, 126, 42);
+}
+
+.avancado{
+    color: brown;
+}

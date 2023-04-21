@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste da estrutura html</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        header > h1{
+            color:blue;
+            text-align: center;
+            padding: 10px;
+            }
+
+        nav{
+            background-color: rgb(109, 84, 84);
+            padding: 3px;
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            color: aqua;
+            
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        article{
+            background-color: lightgray;
+            border-radius: 10px;
+        }
+
+        article > aside{
+            background-color: rgb(112, 79, 79);
+            text-align:center;
+            color: aquamarine;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Noticias do html</p>
+        </section>
+
+        <section id="noticia">
+            <article>
+                <h2>Definição do html</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fuga eum nisi quisquam. Aspernatur aperiam enim ut, quas neque dicta esse saepe accusantium possimus illo consequuntur ratione atque nobis quo?
+                </p>
+                <aside>
+                    <p>Desenvolvimento Web...html,css,javascriprit</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo o nilson....</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
