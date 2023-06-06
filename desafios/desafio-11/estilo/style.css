@@ -1,1 +1,78 @@
 @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+/*CONFIGURANDO CABEÇALHO*/
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*CONFIGURANDO AS SECTION NORMAL*/
+section{
+    padding-top: 10vh;/*altura em cima*/
+    padding-bottom: 10vh;/*altura em baxo*/
+    line-height: 2em;/*distancia das letras de uam para outra*/
+    padding-left: 30px;
+
+}
+section.normal{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section.imagem{
+    background-color:rgb(71, 67, 67);
+    color: white;
+}
+
+section.imagem{
+    background-color: rgb(152, 184, 152);
+    color: white;
+    list-style: 2em;
+    font-weight: bolder;
+}
+section.imagem > p{
+    background-color: rgb(78, 54, 54);
+    border-radius: 5px;
+    width: 350px;
+}
+
+
+/*CONFIGURANDO O RODAPÉ*/
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
